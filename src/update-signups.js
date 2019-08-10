@@ -1,4 +1,4 @@
-require('babel-register')
+require('@babel/register')
 var request = require('superagent')
 var Signup = require('./models/signup')
 var Promise = require('bluebird')

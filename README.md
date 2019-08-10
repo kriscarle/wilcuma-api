@@ -29,6 +29,7 @@ This is a Node + Express app with a GraphQL server wired to a PostgreSQL databas
 Uses Docker and Docker Compose
 
 ```bash
+cp ./db-server/.dev.env ./db-server/.env
 docker volume create --name=wilcuma-db-data
 docker-compose up -d db
 ./run-knex.sh migrate:latest
@@ -37,9 +38,9 @@ docker-compose up -d db
 ### Run locally
 
 ```bash
-yarn install
+npm install
 cp .dev.env .env
-yarn run dev
+npm run dev
 ```
 
 ### Add data
