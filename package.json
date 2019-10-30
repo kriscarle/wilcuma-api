@@ -39,7 +39,7 @@
     "graphql": "^14.0.2",
     "graphql-tools": "^4.0.0",
     "graphql-type-json": "^0.2.1",
-    "knex": "^0.15.2",
+    "knex": "^0.19.5",
     "lodash.find": "^4.6.0",
     "md5": "^2.2.1",
     "moment": "^2.22.2",
